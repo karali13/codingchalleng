@@ -1,6 +1,9 @@
 # codingchalleng
 
 
+
+
+
 #include <iostream>
 
 using namespace std;
@@ -37,6 +40,7 @@ int countBuildings(int arr[], int n)
 int cal_length(int a, int b);
 
 int length;
+
  {
 cout<<"eneter first value";
 
@@ -64,7 +68,9 @@ int main()
     int length;
 
     cout << countBuildings(arr, n);
+
     cout<<cal_length(length);
 
     return 0;
 }
+
